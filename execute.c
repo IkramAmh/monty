@@ -16,6 +16,10 @@ int execute(char *content, stack_t **stack, unsigned int c, FILE *file)
 				{"swap", _swap},
 				{"add", _add},
 				{"nop", _nop},
+				{"sub", _sub},
+				{"div", _div},
+				{"mul", _mul},
+				{"mod", _mod},
 				{NULL, NULL}
 				};
 	unsigned int i = 0;
